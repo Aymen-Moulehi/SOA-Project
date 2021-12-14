@@ -1,0 +1,31 @@
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: rgb(32, 32, 32);
+    font-family: Arial, Helvetica, sans-serif;
+   opacity: 90%;
+  }
+
+  
+  .flex-container > div {
+      color:white;
+    background-color:transparent;
+    margin: 10px;
+    padding: 10px;
+
+  }
+
+  #price{
+      color: tomato;
+  }
+
+  .button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
